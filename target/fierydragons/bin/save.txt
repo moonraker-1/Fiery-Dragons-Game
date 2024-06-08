@@ -1,0 +1,12 @@
+maxSteps=3
+maxPirateSteps=2
+piratesPerStep=2
+chitCards=Salamander,2;Spider,3;Spider,2;Bat,2;Bat,1;Dragon_Pirate,1;Baby_Dragon,2;Salamander,1;Spider,1;Dragon_Pirate,2;Salamander,3;Devil,1;Dragon_Pirate,1;Bat,3;Baby_Dragon,3;Baby_Dragon,1;
+cutVolcanoCards=1,Salamander,Spider,Bat;1,Spider,Salamander,Baby_Dragon;1,Baby_Dragon,Bat,Spider;1,Bat,Spider,Baby_Dragon;
+uncutVolcanoCards=0,Baby_Dragon,Salamander,Bat;0,Salamander,Baby_Dragon,Spider;0,Bat,Baby_Dragon,Salamander;0,Spider,Bat,Salamander;
+caves=Salamander;Bat;Spider;Baby_Dragon;
+tokens=3,0;1,0;0,0;0,0;
+players=1;1;1;1;
+turnManager=11;0;3;
+daredPlayers=2;3;
+

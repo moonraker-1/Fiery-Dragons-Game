@@ -1,0 +1,449 @@
+**Oliver:**
+
+11/03/2024 6-8 meeting in workshop,
+
+- Discussed tasks
+- Made physical lo-fi prototype of game with teammates out of paper
+
+14/03/2024: Organised a team meeting 12pm - 1.
+
+Started working on sprint 1: start time 12pm, worked for 3h
+
+- Came up with a team name
+- Uploaded group photo
+- Discussed project brief and rubric
+- Added my personal details and information for the team information section
+- Sorted out team availabilities and created the team schedule section
+- Created team workload section and delegated work for sprint 1
+- Created technology stack section and added some planned technologies to be used
+- Cloned the repository and set it up in IntelliJ
+- Created the contribution logs page
+- Delegated work for sprint 1: 5-6 user stories each, fill out team info section, begin Figma prototypes (Oliver lead + Aun and Tien). Start Domain Model (Vlad lead + Aun and Tien).
+- Created Figma file for the prototype and began working on designs
+
+18/03/2024: Meeting during workshop 6 - 8pm, 2h duration
+
+- Made adjustments and additions to Domain Model
+- Made adjustments and additions to user stories
+- Suggested game states for low-fi prototype and helped take photos of it
+
+21/03/2024: Continued working on sprint 1: start time 12am, worked for 1h
+
+- Wrote 10 user stories
+- Reviewed my teammate’s user stories and noted suggested changes
+
+21/03/2024: Team meeting 12pm - 1, 1h duration
+
+- Reviewing domain model, made some changes
+- Reviewing user stories, made some changes
+- Reviewed and discussed project brief and rubric
+- Updated team document
+- Delegated remaining work: Remaining user stories (Tien), Finishing Domain Model (Vlad), Low-Fi Prototypes (Aun), Team information section, report formatting, contribution log creation and formatting (Oliver)
+- Set timeline and deadlines for work, work and submission timeline and plan
+
+25/03/2024:
+
+- Continued working on sprint 1: start time 1:20pm, 4h
+- Created cover page and table of contents Created, organised, and formatted each section of the report
+- Wrote the Workload Distribution and Management section
+- Wrote the Technology Stack and Justification section Workshop 6-8:30pm
+- Reviewed user stories and wrote additional user stories. Wrote most of the final user stories
+- Reviewed and edited domain model
+- Organised and sorted user stories
+
+26/03/24, 12-3pm, working for 3h
+
+- Reviewed user stories: removed some and added new ones
+- Reviewed domain model, adjusted and added assumptions
+- Finalised and submitted report
+
+Sprint 3:
+
+06/05/24
+
+- Simplified chit card flipping logic from Vlad's implementation
+- Created UML diagram for sprint 3, added my implementation into it
+
+07/05/24
+
+- Fixed token movement bugs, especially regarding moving in and out of caves and regarding the victory condition. Left in debugging and testing statements for the time being. Used Vlad's suggestion of counting dragon token steps to ensure player has completed a lap around the volcano before the victory condition is met.
+
+08/05/24
+
+- Removed some debugging popups. Moved position of Change Turn pop-up to a better position. Replaced hardcoded total steps value with a calculated variable. Updated window dimensions, board position, and alert position.
+
+13/05/24
+
+- Decided with team to use my implementation of Fiery Dragons for the full implementation, and incorporate ideas and implementations from team members to build on it.
+- Added documentation. Removed unused / obsolete code. Commented out unused code that could have future usage.
+- Merged my implementation into the main branch.
+
+16/05/24
+
+- Team meeting 1:30 - 3:30 to record video
+
+24/05/24
+
+- Reviewed each section of the report
+
+Sprint 4:
+
+21/05/24
+
+- 9:14am - 11am
+- Helped Tien plan implementation for new Chit Card and helped write code for it
+
+30/05/24
+
+- started working on save / load feature
+
+Worked on save / load feature for several hours every day from 31/05/24 to 04/06/24
+
+04/06/24
+
+- Updated UML with save/load extension changes
+- Worked on reflection
+
+05/06/24
+
+- 1 - 2pm
+- Recorded video for sprint 4
+- Helped Tien debug new chit card
+
+
+06/06/24
+- 4:00 - 5:30pm
+- Helped Tien record his part of the video. 
+- Fixed bug with Devil Card that would end the player's turn.
+- 7:00 - 7:30
+- Made the executable. Tested it.
+
+Vlad:
+
+**Sprint 1:**
+
+11/03/2024: Workshop 6-8pm:
+
+- Made a physical prototype of Fiery Dragons (along with Oliver, Aun and Tien);
+
+14/03/2024:
+
+- Provided personal information;
+- Assisted in general questions;
+- Started working on the Domain Model;
+
+18/03/2024:
+
+- Continued working on the Domain Model;
+- Started working on the justification of the Domain Model;
+- Cloned the repository and installed IntelliJ;
+
+19/03/2024:
+
+- Made the test commit on GitLab;
+
+21/03/2024:
+
+- Provided comments on user stories made by Oliver and Tien;
+- Assisted in changing user stories;
+- Started working on the Low-Fi prototype, assisting Aun;
+
+25/03/2024:
+
+- Completed the Low-Fi prototype along with Aun;
+- Completed the Domain Model, assisted by Oliver and Tien;
+- Working on the justifications and additional questions about the Domain Model;
+
+26/03/2024:
+
+- Added two user stories;
+- Reviewed the rest of the user stories;
+- Completed the description of Domain Model entities;
+- Completed the questions 2 and 3 about the domain model (choices and assumptions that we made), assisted by Oli and Tien.
+- Helped Aun make final changes to the storyboard that explains the process of the game.
+
+**Sprint 3:**
+
+06/05/2024(6PM-8PM):
+
+- Discussed the development of the prototype with my teammates. - 2hrs
+- Suggested my approach for flipping chit cards as the efficent approach.
+- Suggested another approach on counting the steps of the dragon tokens to ensure no issue are encountered by players during the game, and all conditions for the victory are met.
+- I reviewed the code after my idea was added and tested the current prototype.
+
+13/05/2024(6PM-8PM):
+
+- Discussed other deliverables for this Sprint with my teammates.
+- Suggested the approach to recording the presentation video.
+- Started working on the final class diagram.
+
+16/05/2024:
+
+- Organized a Zoom conference between 1pm and 3pm to record the video-presentation of the working prototype.
+- Explained some functionality of the game - flipping chit cards, including the code.
+- Explained the tech stack.
+- Recorded four videos of our presentation.
+
+17/05/2024:
+
+- Edited all previously recorded videos, excluding all unnecessary information and pauses.
+- Merged those videos into the final video.
+- Uploaded the video to Monash Panopto.
+
+18/05/2024:
+
+- Created a template for prototype reviews. 1) Selected assessment criteria. 2) Selected quality metrics.
+- Started reviewing my peers' code and their prototypes.
+
+19/05/2024:
+
+- Finished the first review, to be reviewed by my teammates for additional comments.
+
+20/05/2024:
+
+- Modified the video, including the part explaining the creation of the executable recorded by Oliver.
+- Added the Config class to the Class Diagram, fixed relationships between the classes.
+
+23/05/2024:
+
+- Uploaded the new video to Panopto
+- Finished the second review, to be reviewed by my teammates for additional comments.
+- Modified Display class - added the title, modified the font design.
+
+24/05/2024(11AM-5.30PM):
+
+- Edited the Class Diagram - added all new methods and attributes.
+- Worked on the final report - added and edited elements.
+- Modified Display class - changed the design of Chit Cards and Squares.
+- Added a background picture for the game.
+
+
+**Sprint 4:**
+
+30/05/2024:
+
+- Decided on the extension for Sprint 4 and consulted with my teammates;
+- Added new DareScreen class for calling a screen for my extension.
+
+31/05/2024:
+
+- Implemented initial design of the DareScreen;
+- Added methods for retrieving three random Chit Cards, one of them is the lucky card;
+- Made changes to the design of the main screen - added the button for calling the DareScreen.
+
+01/06/2024:
+
+- Added the DareFeature class - to manage calling the DareScreen and players' right to use the feature;
+- Researched on the topic of asynchronous tasks in Java;
+- Implemented the logic of returning the results after the DareScreen is closed, using a CompletableFuture variable;
+- Made the Dragon Tokens move in case the returned Chit Card matches the character on the VolcanoSquare;
+- Made the feature unavailable for everyone who used it once during the game;
+- Added glowing effects for the Dare Chit Cards and other changes to the design.
+
+02/06/2024:
+
+- Modified code to prevent many DareScreens from opening;
+- Modified code to disable the main screen while the DareScreen is open;
+- Made minor changes in the design of the Dare Chit Cards;
+- Added some comments explaining the logic of my extension.
+
+04/06/2024:
+
+- Recorded my part of the video (tech stack & Dare feature) (1pm - 1.30pm);
+- Recorded Oliver's part (his feature & creating an executable) (1.30pm - 1.50pm);
+- Assisted Tien with merging his branch into master branch;
+- Started working on the report;
+- Started working on the Class diagram (adding the classes i created & modifying existing classes);
+- Added comments to some code.
+
+06/06/2024 (10am - 8pm):
+
+- Recorded the video parts with Aun and Tien.
+- Edited the video and uploaded the final version to Panopto;
+- Made some minor changes to the code to ensure it efficiency;
+- Completed the Class Diagram;
+- Completed my part of the report (my feature & reflection), along with the explanation for the executable.
+
+Tien:
+
+11/03/2024 6-8 meeting in workshop
+
+- Discussed about tasks
+- Made the physical prototype for the game Fiery Dragons
+- Installed and set up the IntelliJ
+
+14/04/2024
+
+- Attended the first meeting with my teammates to discuss the Sprint 1
+- Provided personal information
+- Started working on the Sprint 1
+- Started working on the user stories
+- Cloned the repository
+
+18/03/2024
+
+- Continued working on the User stories
+- Had some discussions with Oliver, Vlad and Aun to make the user stories better
+- Had discussions with teammates about what objects can be actors for the user stories
+- Made some changes to the user stories which we were not sure
+
+21/03/2024
+
+- Made some commits to test if it works
+- Supported Vlad and Aun to finish the storyboards
+
+25/03/2024
+
+- Helped finish the Domain Model
+- Working on the justification and user stories
+
+26/03/2024
+
+- Reviewed user stories, domain models and stories board
+- Made the report become better with template
+
+Sprint 3:
+
+06/05/2024
+
+- Was struggling with how to set up the structure for the game
+- Discussed with team to find the best solution for implementing the prototypes
+
+14/05/2024
+
+- Finished 3 CRCs first version
+- Got feedbacks from Oliver
+
+15/05/2024
+
+- Helped Aun with getting understanding of the definitions of Classes in CRCs
+
+16/05/2024
+
+- Had a team meeting to finish recording the Sprint 3 video
+- Discussed about the solution for the Victory function: the case that the dragon token will move pass the cave
+
+17/05/2024
+
+- Finished the second version of the CRCs
+
+18/05/2024
+
+- Provided resources and helped Vlad have base on finishing his review
+
+19/05/2024
+
+- Started writing the review about Oliver's sprint 2
+
+20/05/2024
+
+- Finished writing the review about Oliver's Sprint 2 version 1
+- Got comments from Oliver about the review about his Sprint 2
+
+21/05/2024
+
+- Completed writing the review of Oliver's Sprint 2
+
+23/05/2024
+
+- Helped team finish the Sprint 3 report
+- Wrote the contribution Log
+
+24/05/2024
+
+- Started working on Sprint 4 extension
+- Received some supports from Oliver
+- Finished 50% of Sprint 4 extension (Added the demon chit card)
+
+25/05/2024
+
+- Finished 70% of the Sprint 4 extension (The dragon token will move backwards until it finds a cave)
+
+26/05/2024
+
+- Started the method set the condition that the dragon can only join if it is an empty cave
+- Started adding some visuals to make the game interface better
+- Gave some recommendations about the setting the game design
+
+27/05/2024
+
+Aun:
+
+11/03/2024
+
+- Made the physical prototype for Fiery Dragons.
+
+14/03/2024
+
+- Discussed the assignment and started work on the sprint 1 brief.
+- Filled out the team information section.
+- Helped with technology stack and justification.
+
+18/03/2024
+
+- Came up with game states and took photos of them using the prototype for the report.
+- Wrote user stories.
+
+21/03/2024
+
+- Started helping with the domain model, working on relationships between entities.
+- Started on storyboard captions for the report.
+
+25/03/2024
+
+- Revised storyboards to reflect new board states.
+- Helped with justification and reasoning for the domain model.
+- Fixed git repository.
+
+26/03/2024
+
+- Finalised storyboards and domain model.
+- Revised some user stories.
+
+Sprint 3
+
+06/05/2024
+
+* Completed working on logic for player turns
+
+13/05/2024
+
+* Discussed merging different group member's code for full game implementation.
+
+16/05/2024
+
+* Added labels for current turn.
+* Fixed victory pop-up to show correct player.
+* Filmed video demonstration for sprint 3.
+
+20/05/2024
+
+* Wrote CRC cards along with Tien.
+* Wrote review for Vlad's sprint 2.
+
+24/05/2024
+
+* Helped to compile sprint 3 report.
+
+Sprint 4
+
+25/05/2024
+
+* Began planning extension task and discussing possible extensions for human values.
+
+03/06/2024
+
+* Decided on turn timer for extension task and started researching on implementation.
+
+04/06/2024
+
+* Started implementing turn timer.
+
+05/06/2024
+
+* Completed turn timer extension.
+* Worked on sprint 4 report.
+
+06/06/2024
+
+* Recorded sprint 4 video
